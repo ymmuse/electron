@@ -1,3 +1,9 @@
+# README First!
+## I think you are looking for this [What Is About This Electron](https://github.com/ymmuse/electron/wiki/About-This-%60Electron%60)!    
+         
+           
+                 
+                    
 [![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org)
 
 
