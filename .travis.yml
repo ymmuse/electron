@@ -10,7 +10,6 @@ language: node_js
 node_js:
   - "4"
 os:
-  - linux
   - osx
 env:
   - TARGET_ARCH=x64
@@ -31,4 +30,4 @@ script: './script/cibuild'
 
 branches:
   only:
-    - master
+    - dev-ymmuse

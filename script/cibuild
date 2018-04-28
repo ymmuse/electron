@@ -74,8 +74,14 @@ def main():
 
   is_release = os.environ.get('ELECTRON_RELEASE', '') == '1'
   args = ['--target_arch=' + target_arch]
+  args += ['-v']
+
   if not is_release:
     args += ['--dev']
+    args += ['--build_debug_libcc']
+  else:
+    args += ['--build_release_libcc']
+    
   run_script('bootstrap.py', args)
 
   if PLATFORM != 'win32':
